@@ -27,7 +27,7 @@ programa
 				leia(salario)
 			}
 
-			filhoTotal = filhoTotal + filho
+			filhoTotal += + filho
 			salarioTotal += salario
 
 			se(salarioMaior < salario){
@@ -51,7 +51,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 283; 
+ * @POSICAO-CURSOR = 632; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

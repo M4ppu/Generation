@@ -28,7 +28,7 @@ programa
 			}
 
 			filhoTotal = filhoTotal + filho
-			salarioTotal = salarioTotal + salario
+			salarioTotal += salario
 
 			se(salarioMaior < salario){
 				salarioMaior = salario
@@ -39,7 +39,7 @@ programa
 		}
 		salarioMedia = math.arredondar(salarioTotal/i, 2)
 		filhoMedia = math.arredondar(filhoTotal/i, 2)
-		salarioPercentual100 = math.arredondar((salarioMenor100*100)/i, 20)
+		salarioPercentual100 = math.arredondar((salarioMenor100*100)/i, 2)
 		escreva("\nMédia salarial da população: R$", salarioMedia)
 		escreva("\nMédia do número de filhos: ", filhoMedia, " filhos")
 		escreva("\nMaior salário: R$", salarioMaior)
@@ -51,7 +51,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1246; 
+ * @POSICAO-CURSOR = 670; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -9,10 +9,10 @@ programa
 			escreva(numero, "\n")
 			
 			se(numero >= 300 e numero <= 400){
-				numero = numero + 3
+				numero += 3
 			}
 			senao{
-				numero = numero + 5			
+				numero += 5			
 			}
 			
 		}
@@ -24,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 237; 
+ * @POSICAO-CURSOR = 147; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

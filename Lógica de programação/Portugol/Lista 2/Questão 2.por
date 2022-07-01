@@ -8,7 +8,7 @@ programa
 		
 		para(i=0;i<=500;i+=3){
 			se(i%2 != 0){
-				somaTotal = somaTotal + i			
+				somaTotal += i			
 			}
 		}
 		escreva(somaTotal)
@@ -19,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 194; 
+ * @POSICAO-CURSOR = 143; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

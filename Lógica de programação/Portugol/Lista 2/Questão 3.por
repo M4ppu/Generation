@@ -11,7 +11,7 @@ programa
 		leia(numero)
 		
 		enquanto(numero>=0){			
-			numeroTotal = numeroTotal + numero
+			numeroTotal += numero
 			contador++
 			leia(numero)
 		}
@@ -28,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 573; 
+ * @POSICAO-CURSOR = 285; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

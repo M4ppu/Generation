@@ -27,7 +27,7 @@ programa
 				leia(salario)
 			}
 
-			filhoTotal += + filho
+			filhoTotal += filho
 			salarioTotal += salario
 
 			se(salarioMaior < salario){

@@ -13,10 +13,10 @@ public class Questao4 {
 		num = keyboard.nextFloat();
 		
 		if(num%2==0) {
-			System.out.println("O número é par e sua raiz quadrada é: " + Math.sqrt(num));
+			System.out.printf("O número é par e sua raiz quadrada é: %.2f", Math.sqrt(num));
 		}
 		else {
-			System.out.println("O número é ímpar e ele elevado ao quadrado é: " + Math.pow(num, 2));
+			System.out.printf("O número é ímpar e ele elevado ao quadrado é: %.2f", Math.pow(num, 2));
 		}
 
 	}

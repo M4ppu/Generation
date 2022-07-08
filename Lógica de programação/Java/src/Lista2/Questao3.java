@@ -13,7 +13,7 @@ public class Questao3 {
 			if(idade >=0 && idade <= 21) {
 				cont21++;
 			}
-			if(idade >= 50) {
+			else if(idade >= 50) {
 				cont50++;
 			}
 		}

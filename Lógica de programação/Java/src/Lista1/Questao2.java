@@ -62,11 +62,7 @@ public class Questao2 {
 						menor = num1;
 					}
 				}
-			}
-		
-		
+			}			
 		System.out.println("Ordem crescente: "+ menor +", "+ meio +", "+ maior);
-
 	}
-
 }

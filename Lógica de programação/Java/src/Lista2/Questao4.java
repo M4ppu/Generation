@@ -10,7 +10,7 @@ public class Questao4 {
 				pessoaAgr, sexoFNerv = 0, sexoMAgr = 0, sexoOutroCalm = 0, pessoaNerv40 = 0;
 		
 		
-		while(i != 3) {
+		while(i != 150) {
 			i++;
 			System.out.println("Diga sua idade: ");
 			idade = keyboard.nextInt();

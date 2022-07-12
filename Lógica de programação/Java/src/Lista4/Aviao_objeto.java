@@ -1,6 +1,6 @@
 package Lista4;
 
-public class Questao2 {
+public class Aviao_objeto {
 	public static void main(String[] args) {
 		Aviao vuum = new Aviao();
 		vuum.setModelo("Boeing 747");

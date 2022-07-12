@@ -2,9 +2,9 @@ package Lista4;
 
 import java.util.Scanner;
 
-public class Questao3 {
+public class ProdutoEletronico_objeto {
 	public static void main(String[] args) {
-		Produto_eletronico geladeira = new Produto_eletronico();
+		ProdutoEletronico geladeira = new ProdutoEletronico();
 		Scanner ler = new Scanner(System.in);
 		int modo, potencia, tempoDeUso;
 		

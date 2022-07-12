@@ -1,6 +1,6 @@
 package Lista4;
 
-public class Produto_eletronico {
+public class ProdutoEletronico {
 	private boolean ligado;
 	private double custo_mensal;
 	private int potencia;

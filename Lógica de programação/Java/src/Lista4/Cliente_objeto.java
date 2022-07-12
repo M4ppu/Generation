@@ -1,6 +1,6 @@
 package Lista4;
 
-public class Questao1 {
+public class Cliente_objeto {
 
 	public static void main(String[] args) {
 		Cliente pessoa = new Cliente();		

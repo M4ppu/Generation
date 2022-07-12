@@ -5,11 +5,11 @@ public class ContaBancaria {
 	
 	public void estado() {
 		if(saldo > 0) 
-			System.out.println("Está positivo!");		
+			System.out.println("Saldo positivo!");		
 		else if(saldo == 0) 
-			System.out.println("Está zerado");		
+			System.out.println("Saldo zerado");		
 		else 
-			System.out.println("Está negativo");		
+			System.out.println("Saldo negativo");		
 	}
 	
 	public void saque(double valor) {

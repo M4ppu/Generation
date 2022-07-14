@@ -2,7 +2,7 @@ package Lista3;
 
 import java.util.*;
 
-public class Questao_3 {
+public class Questao3 {
 	public static void main(String[] args) {
 		Random gerador = new Random();
 		Scanner ler = new Scanner(System.in);

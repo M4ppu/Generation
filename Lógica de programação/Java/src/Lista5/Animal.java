@@ -7,7 +7,19 @@ public class Animal {
 	public String emitirSom() {
 		return "Emitindo som~~";
 	}
+	public void emitir() {
+		System.out.println("Emitindo som~~");
+	}
 	
+	public Animal(String nome, int idade) {
+		this.nome = nome;
+		this.idade = idade;
+	}
+	
+	@Override
+	public String toString() {
+		return "\nAnimal nome: " + nome + "\nIdade: " + idade;
+	}
 	public String getNome() {
 		return nome;
 	}
